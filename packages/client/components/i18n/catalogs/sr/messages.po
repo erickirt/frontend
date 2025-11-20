@@ -14,27 +14,27 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: components/i18n/dayjs.tsx:46
+#: components/i18n/dayjs.tsx:45
 msgid "[Yesterday at] LT"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: components/i18n/dayjs.tsx:47
+#: components/i18n/dayjs.tsx:46
 msgid "[Today at] LT"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: components/i18n/dayjs.tsx:48
+#: components/i18n/dayjs.tsx:47
 msgid "[Tomorrow at] LT"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: components/i18n/dayjs.tsx:49
+#: components/i18n/dayjs.tsx:48
 msgid "[Last] dddd [at] LT"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: components/i18n/dayjs.tsx:50
+#: components/i18n/dayjs.tsx:49
 msgid "dddd [at] LT"
 msgstr ""
 
@@ -233,11 +233,13 @@ msgstr ""
 msgid "1 person reacted"
 msgstr "1 особа је реаговала"
 
-#: components/app/interface/settings/user/Language.tsx:195
+#: components/app/interface/settings/user/Language.tsx:189
+#: components/app/interface/settings/user/Language.tsx:205
 msgid "12 hours"
 msgstr ""
 
-#: components/app/interface/settings/user/Language.tsx:187
+#: components/app/interface/settings/user/Language.tsx:189
+#: components/app/interface/settings/user/Language.tsx:197
 msgid "24 hours"
 msgstr ""
 
@@ -293,7 +295,7 @@ msgstr ""
 msgid "Add new members to the group"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:214
+#: src/interface/navigation/servers/UserMenu.tsx:223
 msgid "Add status text"
 msgstr ""
 
@@ -339,7 +341,8 @@ msgstr ""
 msgid "Already friends with this user."
 msgstr "Већ сте пријатељи са овим корисником."
 
-#: components/app/interface/settings/user/Language.tsx:154
+#: components/app/interface/settings/user/Language.tsx:143
+#: components/app/interface/settings/user/Language.tsx:163
 msgid "American (MM/DD/YYYY)"
 msgstr ""
 
@@ -387,7 +390,7 @@ msgstr "Додели улоге"
 msgid "Authenticator App"
 msgstr "Апликација за аутентификацију"
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:148
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:157
 msgid "Avatar"
 msgstr "Профилна Слика"
 
@@ -437,7 +440,7 @@ msgstr ""
 msgid "Ban User"
 msgstr ""
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:154
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:163
 msgid "Banner"
 msgstr ""
 
@@ -469,7 +472,7 @@ msgstr ""
 msgid "Browser Noise Supression"
 msgstr ""
 
-#: components/app/interface/settings/user/Feedback.tsx:75
+#: components/app/interface/settings/user/Feedback.tsx:88
 msgid "Bug Tracker"
 msgstr "Трагач Грешака"
 
@@ -610,7 +613,7 @@ msgstr "Проверите ваш мејл!"
 msgid "Choose username"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:231
+#: src/interface/navigation/servers/UserMenu.tsx:242
 msgid "Clear status"
 msgstr "Очисти статус"
 
@@ -717,7 +720,7 @@ msgstr "Настави"
 msgid "Continue to app"
 msgstr ""
 
-#: components/app/interface/settings/user/Language.tsx:251
+#: components/app/interface/settings/user/Language.tsx:261
 msgid "Contribute a language"
 msgstr ""
 
@@ -767,7 +770,7 @@ msgstr "Коприај сервер ИД"
 msgid "Copy text"
 msgstr "Коприрај текст"
 
-#: src/interface/navigation/servers/UserMenu.tsx:237
+#: src/interface/navigation/servers/UserMenu.tsx:248
 #: components/app/menus/UserContextMenu.tsx:405
 msgid "Copy user ID"
 msgstr "Копирај кориснички ИД"
@@ -1032,11 +1035,11 @@ msgstr ""
 msgid "Display & Text"
 msgstr ""
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:162
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:171
 msgid "Display Name"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:179
+#: src/interface/navigation/servers/UserMenu.tsx:188
 msgid "Do Not Disturb"
 msgstr "Не узнемиравај"
 
@@ -1217,7 +1220,7 @@ msgid "Failed to verify!"
 msgstr "Верификовање је неуспешно!"
 
 #: components/app/interface/settings/UserSettings.tsx:181
-#: components/app/interface/settings/user/Feedback.tsx:62
+#: components/app/interface/settings/user/Feedback.tsx:75
 msgid "Feedback"
 msgstr "Повратна Информација"
 
@@ -1229,7 +1232,7 @@ msgstr "Пронађите заједницу засновану на вашим
 msgid "Find your com<0/>munity,<1/>connect with the world."
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:157
+#: src/interface/navigation/servers/UserMenu.tsx:166
 #: src/interface/navigation/channels/HomeSidebar.tsx:284
 #: src/interface/channels/text/MemberSidebar.tsx:385
 #: components/ui/components/features/profiles/ProfileStatus.tsx:27
@@ -1306,11 +1309,12 @@ msgstr ""
 msgid "Go back to login"
 msgstr "Вратите се на пријаву"
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:170
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:179
 msgid "Go to account settings to edit your username"
 msgstr ""
 
 #: src/interface/Home.tsx:155
+#: components/app/interface/settings/user/Feedback.tsx:106
 msgid "Go to the Stoat Lounge"
 msgstr ""
 
@@ -1350,7 +1354,7 @@ msgstr ""
 msgid "Hello!"
 msgstr "Здраво!"
 
-#: components/app/interface/settings/user/Language.tsx:248
+#: components/app/interface/settings/user/Language.tsx:258
 msgid "Help contribute to an existing or new language"
 msgstr ""
 
@@ -1380,7 +1384,7 @@ msgstr "Потврђујем да имам најмање 18 година."
 msgid "I understand the consequences"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:146
+#: src/interface/navigation/servers/UserMenu.tsx:155
 #: src/interface/navigation/channels/HomeSidebar.tsx:286
 #: src/interface/channels/text/MemberSidebar.tsx:387
 #: components/ui/components/features/profiles/ProfileStatus.tsx:29
@@ -1407,7 +1411,7 @@ msgstr ""
 msgid "Interface Font"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:200
+#: src/interface/navigation/servers/UserMenu.tsx:209
 msgid "Invisible"
 msgstr "Невидљив"
 
@@ -1443,7 +1447,8 @@ msgstr ""
 msgid "irrelevant joke badge 2"
 msgstr ""
 
-#: components/app/interface/settings/user/Language.tsx:162
+#: components/app/interface/settings/user/Language.tsx:145
+#: components/app/interface/settings/user/Language.tsx:171
 msgid "ISO Standard (YYYY-MM-DD)"
 msgstr ""
 
@@ -1461,7 +1466,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/interface/Home.tsx:176
-#: components/app/interface/settings/user/Feedback.tsx:91
+#: components/app/interface/settings/user/Feedback.tsx:125
 msgid "Join the Stoat Lounge"
 msgstr ""
 
@@ -1915,14 +1920,14 @@ msgid "One of the first 1000 users!"
 msgstr ""
 
 #: src/interface/Friends.tsx:147
-#: src/interface/navigation/servers/UserMenu.tsx:136
+#: src/interface/navigation/servers/UserMenu.tsx:145
 #: src/interface/navigation/channels/HomeSidebar.tsx:280
 #: src/interface/channels/text/MemberSidebar.tsx:381
 #: components/ui/components/features/profiles/ProfileStatus.tsx:23
 msgid "Online"
 msgstr "Онлајн"
 
-#: src/interface/navigation/servers/UserMenu.tsx:162
+#: src/interface/navigation/servers/UserMenu.tsx:171
 msgid "Only mentions will notify you"
 msgstr ""
 
@@ -2035,7 +2040,7 @@ msgstr ""
 msgid "Profile"
 msgstr "Профил"
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:179
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:188
 msgid "Profile Bio"
 msgstr ""
 
@@ -2228,8 +2233,8 @@ msgid "Review policy changes"
 msgstr ""
 
 #: components/app/interface/settings/user/Feedback.tsx:34
-msgid "Roadmap"
-msgstr ""
+#~ msgid "Roadmap"
+#~ msgstr ""
 
 #: components/modal/modals/CreateRole.tsx:58
 #: components/app/interface/settings/server/roles/ServerRoleEditor.tsx:86
@@ -2243,7 +2248,7 @@ msgstr "Улоге"
 
 #: components/modal/modals/ServerIdentity.tsx:77
 #: components/modal/modals/CustomStatus.tsx:50
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:190
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:199
 #: components/app/interface/settings/server/Overview.tsx:162
 #: components/app/interface/settings/server/roles/ServerRoleEditor.tsx:189
 #: components/app/interface/settings/channel/Overview.tsx:110
@@ -2279,8 +2284,8 @@ msgid "Search for users..."
 msgstr ""
 
 #: components/app/interface/settings/user/Feedback.tsx:32
-msgid "See what we're currently working on."
-msgstr ""
+#~ msgid "See what we're currently working on."
+#~ msgstr ""
 
 #: components/app/interface/settings/user/voice/VoiceInputOptions.tsx:52
 msgid "Select audio input"
@@ -2440,7 +2445,7 @@ msgstr ""
 msgid "someone@example.com"
 msgstr ""
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:184
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:193
 msgid "Something cool about me..."
 msgstr ""
 
@@ -2505,11 +2510,11 @@ msgstr ""
 msgid "Stoat is one of the best ways to stay connected with your friends and community, anywhere, anytime."
 msgstr ""
 
-#: components/app/interface/settings/user/Feedback.tsx:49
+#: components/app/interface/settings/user/Feedback.tsx:62
 msgid "Submit feature suggestion"
 msgstr "Поднесите предлог функције"
 
-#: components/app/interface/settings/user/Feedback.tsx:60
+#: components/app/interface/settings/user/Feedback.tsx:73
 msgid "Submit feedback"
 msgstr "Пошаљите повратне информације"
 
@@ -2521,7 +2526,7 @@ msgstr ""
 msgid "Subscriptions"
 msgstr ""
 
-#: components/app/interface/settings/user/Feedback.tsx:46
+#: components/app/interface/settings/user/Feedback.tsx:59
 msgid "Suggest new Stoat features on GitHub discussions."
 msgstr ""
 
@@ -2671,7 +2676,8 @@ msgstr ""
 msgid "Tonal Spot"
 msgstr ""
 
-#: components/app/interface/settings/user/Language.tsx:146
+#: components/app/interface/settings/user/Language.tsx:141
+#: components/app/interface/settings/user/Language.tsx:155
 msgid "Traditional (DD/MM/YYYY)"
 msgstr ""
 
@@ -2819,7 +2825,7 @@ msgstr "Видео"
 msgid "View Channel"
 msgstr "Погледај Канал"
 
-#: components/app/interface/settings/user/Feedback.tsx:73
+#: components/app/interface/settings/user/Feedback.tsx:86
 msgid "View currently active bug reports here."
 msgstr "Погледајте тренутно активне буг извештаје овде."
 
@@ -2860,7 +2866,7 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:174
+#: components/app/interface/settings/user/profile/UserProfileEditor.tsx:183
 msgid "Want to change username?"
 msgstr ""
 
@@ -2945,7 +2951,8 @@ msgstr "Можете га поново отворити касније, али �
 
 #: src/interface/Home.tsx:148
 #: src/interface/Home.tsx:169
-#: components/app/interface/settings/user/Feedback.tsx:85
+#: components/app/interface/settings/user/Feedback.tsx:99
+#: components/app/interface/settings/user/Feedback.tsx:118
 msgid "You can report issues and discuss improvements with us directly here."
 msgstr "Можете пријавити проблеме и разговарати о побољшањима са нама директно овде."
 
@@ -2998,7 +3005,7 @@ msgstr ""
 msgid "You were logged out!"
 msgstr ""
 
-#: src/interface/navigation/servers/UserMenu.tsx:184
+#: src/interface/navigation/servers/UserMenu.tsx:193
 msgid "You will not receive any notifications"
 msgstr ""
 
